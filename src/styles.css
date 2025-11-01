@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --shadow-card: 0 10px 24px rgba(0,0,0,.45);
+}
+
+/* Subtle leather/wood vibe overlay */
+.body-bg {
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(255, 128, 0, .06), transparent 60%),
+    radial-gradient(circle at 80% 90%, rgba(255, 64, 0, .05), transparent 50%);
+}
